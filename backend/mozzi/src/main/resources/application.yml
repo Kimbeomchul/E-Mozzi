@@ -15,3 +15,8 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create   # 처음 실행시는 create ddl 명령어로 테이블 생성하고,(첫 spring 기동) 두번째는 update로 변경, 운영 배포시 none으로 변경 요청
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
