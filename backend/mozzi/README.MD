@@ -10,3 +10,6 @@ TO-DO 현재 스프링 시큐리티 때문에 in memory DB 접근 불가해서..
 https://github.com/HomoEfficio/dev-tips/blob/master/Spring%20Security%EC%99%80%20h2-console%20%ED%95%A8%EA%BB%98%20%EC%93%B0%EA%B8%B0.md
 해당 글 참고해야함.. 
 
+spring jwt 추가
+https://emgc.tistory.com/148
+
