@@ -14,6 +14,7 @@ spring jwt 추가
 https://emgc.tistory.com/148
 
 2022-07-11
+swagger 주소 : http://localhost:8080/swagger-ui.html#/
 swagger 추가 , 오전 회의 반영으로 일단은 security 삭제
 ![image](https://user-images.githubusercontent.com/61217289/178290989-208b3a62-2950-4ed1-ab06-dd22c0fbe57c.png)
 
