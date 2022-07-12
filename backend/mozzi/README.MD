@@ -27,3 +27,37 @@ PW : 1234
 
 ![image](https://user-images.githubusercontent.com/61217289/178385810-faeb88c2-1f7e-49d1-88ef-72e09a3add6a.png)
 
+
+### 의존성
+
+- Sring Boot DevTools
+- Lombok
+- Spring Data JPA
+- MariaDB Driver
+- Spring Security
+- Spring Web
+- oauth2-client
+
+```xml
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	compileOnly 'org.projectlombok:lombok'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
+	// swagger 추가
+	//https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
+	implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
+	implementation group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
+
+	//validation 추가
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+	//	TODO AWS RDS 생성후 추후 제거 필요
+	implementation 'com.h2database:h2:1.4.200'
+
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.springframework.security:spring-security-test'```
+
+
