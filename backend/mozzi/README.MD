@@ -18,3 +18,11 @@ swagger 추가 , 오전 회의 반영으로 일단은 security 삭제
 ![image](https://user-images.githubusercontent.com/61217289/178290989-208b3a62-2950-4ed1-ab06-dd22c0fbe57c.png)
 
 스웨거에서 api 테스트하면 될듯? (로컬 환경에서 실행후)
+
+h2 DB 접속 URL
+http://localhost:8080/h2-console
+ID : sa
+PW : 1234
+
+![image](https://user-images.githubusercontent.com/61217289/178385810-faeb88c2-1f7e-49d1-88ef-72e09a3add6a.png)
+
